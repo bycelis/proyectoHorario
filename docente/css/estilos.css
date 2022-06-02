@@ -1,0 +1,167 @@
+body{
+    background-color: #efefef;
+    overflow: auto;
+    font-family: Arial;
+}
+.sectionlogin{
+    background-color: #fff;
+    margin: auto;
+    padding: 3% 0 0;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 40%;
+}
+.section{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.sectioncrear{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+h1{
+    color: #20bcd5;
+    text-align: center;
+}
+h3{
+    color: #20bcd5;
+    text-align: center;
+}
+h1 span{
+    border: 4px dashed #20bcd5;
+    padding: 5px;
+}
+#header{
+    background-size: cover;
+    background-image: url(../img/header.jpg);
+    height: 90px;
+}
+.button{
+    background: #20bcd5;
+    border-radius: 20px ;
+    color: black;
+    cursor: pointer;
+    width: 50%;
+    height: 50.5px;
+}
+.buttonbuscar{
+    background: #20bcd5;
+    border-radius: 20px ;
+    color: black;
+    cursor: pointer;
+    width: 10%;
+    height: 40.5px;
+}
+.sectionlista{
+    float:left;
+    width: 60%;
+}
+.sectionbutton{
+    float:left;
+    width: 15%;
+    height: 55px;
+    padding-left: 10%;
+    padding-top: 2.6%;
+}
+.tablahi{
+    background-color: #efefef;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 5px;
+}
+thead{
+    background-color: #20bcd5;
+    border-bottom: solid 4px grey;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+.sctionform{
+    width: 70%;
+}
+input, select{
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 11px 9px 9px;
+    border: 1p solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.menu {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 0;
+    width: 100%;
+}
+.menu a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.menu .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+a:nth-child(1) {
+    width: 30%;
+    font-family: 'Cherry Swash', cursive;
+
+}
+a:nth-child(2) {
+    width: 40%;
+    font-family: 'Cherry Swash', cursive;
+}
+a:nth-child(3) {
+    width: 30%;
+    font-family: 'Cherry Swash', cursive;
+}
+.menu .start-home, a:nth-child(1):hover~.animation {
+    width: 30%;
+    left: 0;
+    background-color: #20bcd5;
+    color: white;
+}
+.menu .start-about, a:nth-child(2):hover~.animation {
+    width: 40%;
+    left: 30%;
+    background-color: #20bcd5;
+}
+.menu .start-blog, a:nth-child(3):hover~.animation {
+    width: 30%;
+    left: 70%;
+    background-color: #20bcd5;
+    color: white;
+}
+p {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+
